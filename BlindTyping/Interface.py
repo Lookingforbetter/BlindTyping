@@ -1,6 +1,7 @@
 import pygame
-from Button import *
-from Results import *
+
+from button import *
+from results import *
 
 
 class Interface:

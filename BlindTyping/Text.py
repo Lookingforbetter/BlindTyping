@@ -1,10 +1,7 @@
 class Text:
     sentences = open('sentences.txt').read().split('\n')
-
     sentences_count = len(sentences)
-
     symbols_count = 0
-
     words_count = 0
 
     for i in range(sentences_count):

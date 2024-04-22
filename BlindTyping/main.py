@@ -1,7 +1,7 @@
 import sys
 import time
-from Interface import *
 
+from interface import *
 
 while True:
     Interface.screen.fill((0, 0, 0))
