@@ -1,7 +1,7 @@
 import pygame
 
-from button import *
-from results import *
+from src.button import *
+from src.results import *
 
 
 class Interface:
@@ -50,7 +50,7 @@ class Interface:
     @classmethod
     def draw_results(cls):
         for i in range(len(Results.results)):
-            cls.draw_text_top_left(str(i + 1) + '. ' + Results.results[i], 10, 10 + i * 25)
+            cls.draw_text_top_left(f"{i + 1}. {Results.results[i]}", 10, 10 + i * 25)
 
     @classmethod
     def draw_button(cls, button):

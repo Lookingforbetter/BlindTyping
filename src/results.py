@@ -1,5 +1,5 @@
-from text import *
-from trainer import *
+from src.text import *
+from src.trainer import *
 
 
 class Results:

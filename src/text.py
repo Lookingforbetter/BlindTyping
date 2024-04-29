@@ -1,5 +1,10 @@
+import os
+
+
 class Text:
-    sentences = open('sentences.txt').read().split('\n')
+    with open(os.path.join("texts", "sentences.txt"), 'r') as f:
+        sentences = f.read().split('\n')
+
     sentences_count = len(sentences)
     symbols_count = 0
     words_count = 0
